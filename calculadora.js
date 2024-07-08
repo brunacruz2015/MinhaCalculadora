@@ -46,8 +46,12 @@ function Multiplicacao(numero1, numero2){
     console.log(numero1 * numero2)
 }
 function Divisao(numero1, numero2){
- if (numero2)   
+ if (numero2 == 0){
+    console.log("Não existe divisão por zero")
+ }else{   
     console.log(numero1 / numero2)
+}
+
 }
 function Porcentagem(numero1, numero2){
     console.log(numero1 % numero2 /100)
